@@ -2,8 +2,8 @@
 
 A lightweight random uid generator which can be used both with JavaScript and TypeScript.
 
-[![NPM](https://img.shields.io/npm/v/light-uid.svg)][npm-light-uid]
-[![Minzipped Bundle Size](https://badgen.net/bundlephobia/minzip/light-uid)][bundlephobia-link]
+[![NPM][npm-image]][npm-link]
+[![Minzipped Bundle Size][bundlephobia-image]][bundlephobia-link]
 
 ## Install
 
@@ -34,6 +34,8 @@ genUid(256).length; // 256
 
 MIT © [hakobpogh][github-hakobpogh]
 
-[github-hakobpogh]: https://github.com/hakobpogh
-[npm-light-uid]: https://www.npmjs.com/package/light-uid
+[npm-image]: https://img.shields.io/npm/v/light-uid.svg
+[npm-link]: https://www.npmjs.com/package/light-uid
+[bundlephobia-image]: https://badgen.net/bundlephobia/minzip/light-uid
 [bundlephobia-link]: https://bundlephobia.com/result?p=light-uid
+[github-hakobpogh]: https://github.com/hakobpogh
