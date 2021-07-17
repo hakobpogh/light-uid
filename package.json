@@ -1,6 +1,6 @@
 {
   "name": "light-uid",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A lightweight random uid generator",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
@@ -19,7 +19,11 @@
     "uid",
     "random",
     "string",
-    "bundlephobia"
+    "bundlephobia",
+    "light",
+    "light-uid",
+    "random-uid",
+    "uuid"
   ],
   "author": "hakobpogh",
   "license": "MIT",
