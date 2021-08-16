@@ -1,4 +1,4 @@
-const genUid = (size = 16) => {
+export const genUid = (size = 16) => {
   let str = '';
 
   while (str.length < size) {
@@ -9,4 +9,3 @@ const genUid = (size = 16) => {
 };
 
 export default genUid;
-
