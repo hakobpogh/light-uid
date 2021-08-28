@@ -1,14 +1,15 @@
 {
   "name": "light-uid",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "A lightweight random uid generator",
   "main": "dist/index.js",
+  "umd:main": "dist/index.umd.js",
   "module": "dist/index.modern.js",
   "source": "index.ts",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "microbundle-crl --no-compress --format modern,esm,cjs",
-    "build:dev": "microbundle-crl --format modern,esm,cjs",
+    "build": "microbundle-crl --no-compress",
+    "build:dev": "microbundle-crl",
     "test": "mocha --require ts-node/register test.ts"
   },
   "repository": {
